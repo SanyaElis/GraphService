@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: GraphService
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: osm
+      authentication-database: admin
+      username: root
+      password: example
+  kafka:
+    consumer:
+      concurrency: 3
+      group-id: resolved_osm_listener
+      graph-topic: graph_service_way_topic
+      session:
+        timeout: 6000
+      bootstrap-servers: localhost:29092
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      auto-commit-interval: 100
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: logs/app.log
+    path: log

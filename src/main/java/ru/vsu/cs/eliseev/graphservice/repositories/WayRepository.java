@@ -2,7 +2,7 @@ package ru.vsu.cs.eliseev.graphservice.repositories;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import ru.vsu.cs.eliseev.graphservice.models.Way;
+import ru.vsu.cs.eliseev.graphservice.model.entities.Way;
 
 import java.util.List;
 

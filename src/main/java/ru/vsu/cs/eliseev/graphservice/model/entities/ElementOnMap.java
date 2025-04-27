@@ -1,4 +1,4 @@
-package ru.vsu.cs.eliseev.graphservice.models;
+package ru.vsu.cs.eliseev.graphservice.model.entities;
 
 import lombok.Getter;
 import lombok.Setter;
