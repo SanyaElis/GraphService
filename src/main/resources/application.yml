@@ -9,6 +9,11 @@ spring:
       authentication-database: admin
       username: root
       password: example
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: 28042025
   kafka:
     consumer:
       concurrency: 3

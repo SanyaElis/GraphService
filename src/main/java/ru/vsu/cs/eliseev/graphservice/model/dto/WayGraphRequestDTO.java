@@ -5,6 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import ru.vsu.cs.eliseev.graphservice.model.enums.OSMType;
 
+/**
+ * Kafka consumer для обработки сообщений о новых объектах OSM,
+ * для которых необходимо построить граф на основе пространственных отношений.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
